@@ -1,0 +1,668 @@
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* ====================nav start===================== */
+.nav-link {
+    font-family: 'Gupter', serif;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 2%;
+    color: #000000;
+    position: relative;
+    margin-left: 47.15px;
+
+}
+
+.nav-link::after {
+    content: '';
+    width: 0px;
+    height: 2px;
+    background: #000000;
+    position: absolute;
+    top: 34px;
+    left: 0;
+    transition: .4s;
+}
+
+.nav-link:hover::after {
+    width: 55.77px;
+}
+
+.icon {
+    margin-right: 30.44px;
+
+}
+
+.postion_ball {
+    position: relative;
+}
+
+.boll {
+    width: 17.14px;
+    height: 17px;
+    border-radius: 50%;
+    background: #FE0303;
+    position: absolute;
+    top: -12px;
+    left: 92px;
+}
+
+/* ==================nav end======================== */
+/* ================================banner start===================== */
+#banner {
+    margin-top: 72px;
+    margin-bottom: 208px;
+
+}
+
+.banner_title {
+    color: #292019;
+    font-family: Habibi;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 76px;
+    letter-spacing: 1.3px;
+}
+
+.banner_para1 {
+    color: #000;
+    font-family: Habibi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.4px;
+    width: 471px;
+    margin-top: 43px;
+}
+
+.banner_para2 {
+    color: #000;
+    font-family: Habibi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.4px;
+    width: 471px;
+    margin-top: 61px;
+    margin-bottom: 60px;
+}
+
+.banner_btn1 {
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px 70px;
+    border: 3px solid #C4A586;
+    width: 241px;
+    color: #C4A586;
+    font-family: Gupter;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.54px;
+    transition: .4s;
+
+}
+
+.banner_btn1:hover {
+    background: #C4A586;
+    color: #FFFFFF;
+}
+
+.banner_btn2 {
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px 38px;
+    border: 3px solid #C4A586;
+    width: 241px;
+    font-family: Gupter;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.54px;
+    color: #C4A586;
+    margin-left: 33px;
+    transition: .4s;
+}
+
+.banner_btn2:hover {
+    background: #C4A586;
+    color: #FFFFFF;
+}
+
+.banner_imgdiv {
+    position: relative;
+}
+
+.banner_img {
+    width: 418px;
+
+    position: absolute;
+    top: 87px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* ==================================banner end=================== */
+/* ==================================CLIENTS start ================ */
+#client {
+
+    margin-bottom: 156px;
+}
+
+.client_title {
+    color: #000;
+    font-family: Gupter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.46px;
+    text-align: center;
+}
+
+.client_brand {
+    color: var(--Grayes, #72696A);
+    font-family: Gupter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    margin-top: 96px;
+
+}
+
+.gap1 {
+    margin-left: 186px;
+}
+
+.gap2 {
+    margin-left: 100px;
+}
+
+.product {
+    margin-top: 78px;
+
+}
+
+.product_title {
+    color: #000;
+    font-family: Gupter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    align-items: center;
+}
+
+.product_subtitle {
+    color: var(--Pich, #C4A586);
+    font-family: Gupter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    margin-top: 41px;
+}
+
+.product_div2 {
+    padding: 64px 0;
+}
+
+.product_title2 {
+    color: #000;
+    font-family: Gupter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+.producr_stbtitle2 {
+    color: var(--Grayes, #72696A);
+    font-family: Gupter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    margin-top: 41px;
+}
+
+.product_div3 {
+    padding: 23px 0;
+}
+
+.product_pading {
+    padding: 43px 100px;
+    height: 297px;
+    background: #C4A586;
+    margin-left: 20px;
+}
+
+/* ==================================CLIENTS end ====================== */
+/* ============================Products start===================== */
+#products_item {
+    margin-bottom: 325px;
+}
+
+.product_title3 {
+    color: #000;
+    font-family: Gupter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.8px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    margin-left: 599px;
+
+
+}
+
+.d1 h4 {
+    color: #000;
+    font-family: Gupter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+
+.d2 h3 {
+    color: #000;
+    font-family: Gupter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    margin-left: 65px;
+}
+
+.d3 h4 {
+    color: var(--Pich, #C4A586);
+    font-family: Gupter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    margin-left: 65px;
+
+}
+
+.d4 {
+    margin-left: 20px;
+    position: relative;
+}
+
+.product_icon {
+    position: absolute;
+    top: -15px;
+}
+
+.div1 {
+    width: 402px;
+    height: 302px;
+    background: #C4A586;
+    padding: 36px 84px;
+    position: relative;
+    margin-top: 120px;
+    position: relative;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+    margin-top: 40px;
+
+}
+
+.price1 {
+    color: #000;
+    font-family: Gupter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.34px;
+}
+
+.price2 {
+    color: var(--Grayes, #72696A);
+    font-family: Gupter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-decoration-line: strikethrough;
+}
+
+.subb_div {}
+
+.sofa {
+    color: #000;
+    font-family: Habibi;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 76px;
+    /* 345.455% */
+    letter-spacing: 0.44px;
+}
+
+.sofa_img1 {
+    position: absolute;
+    top: 156px;
+    left: 76px;
+    width: 255px;
+
+}
+
+.cart {
+    width: 208px;
+    height: 68px;
+    display: flex;
+    background: #D1A070;
+    border-radius: 20px;
+    padding: 27px 39px;
+    position: absolute;
+    top: -40px;
+}
+
+.cat1 {
+    color: #000;
+    font-family: Gupter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+.cart_icon {
+    margin-left: 20px;
+}
+
+.dwon {
+    margin-top: 142px !important;
+}
+
+.sofa_img2 {
+    position: absolute;
+    top: 147px;
+    width: 214px;
+}
+
+.sofa_img3 {
+    position: absolute;
+    top: 174px;
+    width: 255px;
+}
+
+.cart_dwon {
+    margin-top: 194px;
+}
+
+/* ============================Products end======================= */
+/* ============================Customer start =========================== */
+#customer {
+    margin-bottom: 95px;
+}
+
+.customer_title {
+    color: #000;
+    font-family: Gupter;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 461px;
+}
+
+.customer_para {
+    color: #000;
+    font-family: Habibi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 140% */
+    letter-spacing: 0.4px;
+    width: 559px;
+    margin-top: 75px;
+}
+
+.flex3 {
+    display: flex;
+    margin-top: 146px;
+    margin-left: 125px;
+
+
+}
+
+.dwon {
+    margin-top: 85px;
+}
+
+.customer_subtitle {
+    color: #000;
+    font-family: Gupter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.44px;
+}
+
+.customer_subtile2 {
+    color: #000;
+    font-family: Habibi;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 76px;
+    /* 447.059% */
+    letter-spacing: 0.34px;
+}
+
+.space {
+    margin-left: 84px;
+}
+
+.flex4 {
+    display: flex;
+    gap: 25px;
+    text-align: center;
+    align-items: center;
+    margin-top: 42px;
+    margin-left: 68px;
+}
+
+.arow_1 {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    transition: .4s;
+    padding: 3px 0;
+}
+
+.arow_1:hover {
+    background: #C4A586;
+    color: #FFFFFF;
+    border: none;
+}
+
+.flaex5 {
+    display: flex;
+    gap: 36px;
+    margin-left: 198px;
+    margin-top: 54px;
+}
+
+/* =============================Customer end============================== */
+/* =============================notification start==================== */
+#notification {
+    margin-bottom: 114px;
+}
+
+.noti_title {
+    color: var(--Pich, #C4A586);
+    font-family: Gupter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    padding: 15px 31px;
+    border: 2px solid#C4A586;
+    border-radius: 30px;
+    width: 240px;
+}
+
+.noti_maintitle {
+    color: #000;
+    font-family: Gupter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 39px;
+    /* 130% */
+    letter-spacing: 0.6px;
+    width: 349px;
+    margin-top: 25px;
+}
+
+.flex6 {
+    display: flex;
+    align-items: center;
+
+}
+
+.box {
+    color: #000;
+    font-family: Gupter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    padding: 29px 26px;
+    width: 492px;
+    border-radius: 13px;
+    background: #D9D9D9;
+    margin-top: 16px;
+}
+
+.email_div {
+    position: relative;
+}
+
+.btn h6 {
+    color: #FFF;
+    font-family: Gupter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    padding: 22px 41px;
+    background: #D1A070;
+    border-radius: 10px 0px 0px 10px;
+    position: absolute;
+    top: 21px;
+    right: 94px;
+    z-index: 1;
+}
+
+.icon_arrey {
+    padding: 26px 30px;
+    background: #C4A586;
+    border-radius: 0px 13px 13px 0px;
+    width: 64px;
+    position: absolute;
+    top: 21px;
+    right: 10px;
+}
+
+.email_div3 h4 {
+    color: #000;
+    font-family: Gupter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.38px;
+    margin-left: 9px;
+}
+
+.email_div2 {
+    margin-left: 84px;
+}
+
+.email_div3 {
+    position: relative;
+}
+
+.icon4 {
+    position: absolute;
+    top: 0;
+    right: -27px;
+}
+
+/* =============================notification end======================== */
+/* ==============================fotter start=========================== */
+#fotter {}
+
+.fotterr_div {
+    width: 100%;
+    height: 1px;
+    background: #C4A586;
+    margin-top: 10px;
+}
+
+.last {
+    text-align: center;
+    color: #000;
+    font-family: Gupter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.34px;
+    margin-top: 47px;
+    padding-bottom: 100px;
+}
+
+span {
+    color: #C4A586;
+    font-family: Gupter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.34px;
+    text-decoration-line: underline;
+}
+
+/* ===============================fotter end============================== */
